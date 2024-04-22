@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(52, 139, 90);
+}
+p { color: aquamarine;
+    font-family: 'Times New Roman', Times, serif; 
+    border-bottom: 3px dotted #3bd; 
+    padding: 17px; 
+}
+.header {
+    background-color: rgb(221, 68, 187)
+}
+
+img {
+    height: 175px;
+    width: 700px;
+    margin: 75px;
+    padding: 35px;
+}
+body {
+    background-color: #2b5f3f;
+}
