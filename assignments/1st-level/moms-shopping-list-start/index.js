@@ -14,11 +14,14 @@ function newListItem(items){
     const div = document.createElement("div")
     const editButton = document.createElement("button")
     const xButton = document.createElement("Button")
-    listItem.innerHTML =` <div>${items}</div>
-    <button class="delete">X</button>`
+    //listItem.innerHTML =` <div>${items}</div>
+    // <button class="delete">X</button>`
     div.textContent = items
     editButton.textContent = "Edit"
     xButton.textContent = "X"
+    xButton.addEventListener("click", function() {
+        listItem.remove()
+    })
     listItem.appendChild(div)
     listItem.appendChild(editButton)
     listItem.appendChild(xButton)
